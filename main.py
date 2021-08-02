@@ -60,7 +60,7 @@ def run_alexa():    #take the command and run the alexa
         talk('How are you')
     elif 'fine' in command:
         talk('Its is good to know that you are fine')
-    elif 'exit' in command:
+    elif 'exit' in command:         #exit the alexa 
         talk('Thank for giving me the time')
         exit()
     else :
